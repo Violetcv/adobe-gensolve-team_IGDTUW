@@ -60,3 +60,51 @@ Our analysis revealed that all the individual Bézier curves in these datasets e
 In this project, we successfully implemented algorithms to identify various types of symmetry in 2D shapes and curves. We started with sample shapes and then moved on to analyzing polylines and Bézier curves. Our findings suggest that while individual Bézier curves may exhibit symmetry, the overall shape formed by a collection of curves may not necessarily be symmetric.
 
 This project serves as a foundation for further exploration of symmetry in curves and shapes, with potential applications in areas such as computer graphics, image processing, and pattern recognition.
+
+
+# Problem Statement - 3: Occlusion Detection and Shape Simplification
+
+## Introduction
+
+In this project, we aimed to detect and simplify shapes with occlusions in 2D datasets. The objective was to identify incomplete shapes, fill the gaps, and simplify the shapes while preserving their geometric integrity. By applying advanced algorithms like the RDP simplification and Bezier curve fitting, the project provides a robust approach to handling and processing complex shape data.
+
+## Methodology
+
+### Occlusion Detection
+
+We started by analyzing the shape data to detect occlusions—gaps or missing parts in the shapes:
+
+1.  **RDP Simplification**: We used the Ramer-Douglas-Peucker (RDP) algorithm to reduce the complexity of the shape paths while preserving the key geometric features. This simplification process made it easier to identify and fill occlusions.
+    
+2.  **Convex Hull Filling**: For shapes identified with occlusions, we applied a convex hull algorithm to fill the gaps, ensuring the shapes were continuous and connected.
+    
+
+### Shape Simplification and Fitting
+
+After detecting and filling the occlusions, we simplified the shapes further:
+
+1.  **Bezier Curve Fitting**: We applied Bezier curves to smooth out the shapes, creating more visually appealing and simplified representations of the original shapes.
+    
+2.  **Connectivity Analysis**: We analyzed the connectivity of the shapes before and after the occlusion filling process to ensure the shapes formed a single, cohesive structure without gaps or breaks.
+    
+
+## Results
+
+We analyzed the following datasets for occlusions and simplifications:
+
+1.  **occlusion1**
+  ![Dataset Image 1](https://raw.githubusercontent.com/Violetcv/adobe-gensolve-team_IGDTUW/main/Occlusion_PS3/occlusion1.png?token=GHSAT0AAAAAACUCSOCLKKLVN27AMXCAHFF6ZVY6NKQ)  
+     ![Dataset 1 Solution](https://raw.githubusercontent.com/Violetcv/adobe-gensolve-team_IGDTUW/main/Occlusion_PS3/occlusion1_sol.png?token=GHSAT0AAAAAACUCSOCK7ZPPQMXO5VX6LRXUZVY6N7A)
+    
+2.  **occlusion2**![Dataset Image 2](https://raw.githubusercontent.com/Violetcv/adobe-gensolve-team_IGDTUW/main/Occlusion_PS3/occlusion2.png?token=GHSAT0AAAAAACUCSOCLSZMEPFE27KG6G4AAZVY6O2A)
+    
+    ![Dataset 2 Solution](https://raw.githubusercontent.com/Violetcv/adobe-gensolve-team_IGDTUW/main/Occlusion_PS3/occlusion2_sol.png?token=GHSAT0AAAAAACUCSOCK2DWAG4LO3ASUB5MEZVY6PGQ) 
+    
+
+Our analysis showed that the RDP algorithm effectively simplified the shapes, while the convex hull approach successfully filled the occlusions. The Bezier curve fitting further enhanced the shapes, resulting in smooth, connected structures. The connectivity analysis confirmed that the occlusion-filling process transformed disconnected shapes into connected ones.
+
+## Conclusion
+
+We developed a comprehensive approach to detect and fill occlusions in 2D shapes. The combination of RDP simplification, convex hull filling, and Bezier curve fitting provided a powerful tool for handling complex shape data. Our results demonstrated the effectiveness of this approach, transforming disconnected and incomplete shapes into cohesive, simplified structures.
+
+This project serves as a foundation for further exploration of shape simplification and occlusion detection, with potential applications in fields such as computer graphics, image processing, and geometric modeling.
