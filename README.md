@@ -95,7 +95,11 @@ We analyzed the following datasets for occlusions and simplifications:
 1.  **occlusion1**
   ![Dataset Image 1](https://raw.githubusercontent.com/Violetcv/adobe-gensolve-team_IGDTUW/main/Occlusion_PS3/occlusion1.png?token=GHSAT0AAAAAACUCSOCLKKLVN27AMXCAHFF6ZVY6NKQ)  
      ![Dataset 1 Solution](https://raw.githubusercontent.com/Violetcv/adobe-gensolve-team_IGDTUW/main/Occlusion_PS3/occlusion1_sol.png?token=GHSAT0AAAAAACUCSOCK7ZPPQMXO5VX6LRXUZVY6N7A)
-    
+  
+
+
+
+  
 2.  **occlusion2**![Dataset Image 2](https://raw.githubusercontent.com/Violetcv/adobe-gensolve-team_IGDTUW/main/Occlusion_PS3/occlusion2.png?token=GHSAT0AAAAAACUCSOCLSZMEPFE27KG6G4AAZVY6O2A)
     
     ![Dataset 2 Solution](https://raw.githubusercontent.com/Violetcv/adobe-gensolve-team_IGDTUW/main/Occlusion_PS3/occlusion2_sol.png?token=GHSAT0AAAAAACUCSOCK2DWAG4LO3ASUB5MEZVY6PGQ) 
