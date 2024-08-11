@@ -35,6 +35,7 @@ We analyzed the following datasets for regularization:
    ![Screenshot (18)](https://github.com/user-attachments/assets/a4f654bf-c483-421b-9370-a93a90826793)
 
 3. **frag2**
+
    ![Screenshot (19)](https://github.com/user-attachments/assets/6940c866-ad53-4cdf-9b2f-e1cb82cc6655)
 
 
