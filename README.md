@@ -137,17 +137,18 @@ After detecting and filling the occlusions, we simplified the shapes further:
 We analyzed the following datasets for occlusions and simplifications:
 
 1.  **occlusion1**
-  ![Dataset Image 1](https://raw.githubusercontent.com/Violetcv/adobe-gensolve-team_IGDTUW/main/Occlusion_PS3/occlusion1.png?token=GHSAT0AAAAAACUCSOCLKKLVN27AMXCAHFF6ZVY6NKQ)  
-     ![Dataset 1 Solution](https://raw.githubusercontent.com/Violetcv/adobe-gensolve-team_IGDTUW/main/Occlusion_PS3/occlusion1_sol.png?token=GHSAT0AAAAAACUCSOCK7ZPPQMXO5VX6LRXUZVY6N7A)
-  
+![occlusion1](https://github.com/user-attachments/assets/a9524382-d947-4a00-8751-9d44fa91b1d3)
+![occlusion1_sol](https://github.com/user-attachments/assets/c2be06cd-ab02-430e-9193-71c3c9268fdf)
 
 
 
   
-2.  **occlusion2**![Dataset Image 2](https://raw.githubusercontent.com/Violetcv/adobe-gensolve-team_IGDTUW/main/Occlusion_PS3/occlusion2.png?token=GHSAT0AAAAAACUCSOCLSZMEPFE27KG6G4AAZVY6O2A)
-    
-    ![Dataset 2 Solution](https://raw.githubusercontent.com/Violetcv/adobe-gensolve-team_IGDTUW/main/Occlusion_PS3/occlusion2_sol.png?token=GHSAT0AAAAAACUCSOCK2DWAG4LO3ASUB5MEZVY6PGQ) 
-    
+2.  **occlusion2**
+![occlusion2](https://github.com/user-attachments/assets/d1650e09-0f2a-43ce-8d20-dff2b6bb6e71)
+![occlusion2_sol](https://github.com/user-attachments/assets/83970c4e-d646-4931-8d71-ae1e34d686be)
+
+
+
 
 Our analysis showed that the RDP algorithm effectively simplified the shapes, while the convex hull approach successfully filled the occlusions. The Bezier curve fitting further enhanced the shapes, resulting in smooth, connected structures. The connectivity analysis confirmed that the occlusion-filling process transformed disconnected shapes into connected ones.
 
