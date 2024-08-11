@@ -1,3 +1,46 @@
+# Problem Statement - 1 : Regularize Curves
+
+## Introduction
+This project focuses on detecting and regularizing various shapes from hand-drawn doodles and curves. The goal is to transform irregular shapes into their idealized forms while accurately identifying the shape types. The approach combines geometric properties and computational techniques to achieve this.
+
+## Methodology
+### Detection
+
+1. Convex Hull: Approximates the shape's boundary, aiding in calculations of perimeter and area for shape identification.
+2. Aspect Ratio Calculation: Determines width-to-height ratio, useful for distinguishing rectangles from other shapes.
+3. Vertex Count: Identifies polygons and regular shapes based on the number of vertices, aiding in the detection of stars and polygons.
+4. Angle Calculation: Measures angles between points to identify shapes with distinct features like stars.
+5. Compactness and Perimeter: Evaluates how closely a shape resembles a circle by comparing area to perimeter ratio.
+6. Least Squares and RDP: Techniques similar to Bezier curve fitting are used for regularizing shapes, though not explicitly employed.
+
+### Regularization
+
+1. Circle Regularization: Determines the circle's radius from the centroid and adjusts it to fit the detected dimensions.
+2. Rectangle Regularization: Scales the rectangle to match detected width and height, ensuring it fits within specified dimensions.
+3. Ellipse Regularization: Uses EllipseModel from skimage to fit an ellipse to the points, generating a regularized ellipse.
+4. Polygon Regularization: Constructs a regular polygon based on average radius and centroid, approximating irregular polygons.
+5. Star Regularization: Forms a star shape by alternating outer and inner radii, creating a regular star with a specified number of points.
+6. Line Regularization: Ensures lines are straight and connected, adjusting them to fit within the bounding box and extending or shortening segments as needed.
+7. Bezier Curve Fitting: Utilizes splprep and splev from scipy to fit a smooth Bezier curve to complex shapes for regularization.
+
+## Results
+
+We analyzed the following datasets for regularization:
+
+1. **isolated**
+   ![Screenshot (17)](https://github.com/user-attachments/assets/747b6f20-0a79-45b1-b188-0526eab3874f)
+
+2. **frag1**
+
+   ![Screenshot (18)](https://github.com/user-attachments/assets/a4f654bf-c483-421b-9370-a93a90826793)
+
+3. **frag2**
+   ![Screenshot (19)](https://github.com/user-attachments/assets/6940c866-ad53-4cdf-9b2f-e1cb82cc6655)
+
+
+## Conclusion
+The implemented algorithms and methods provide a robust framework for detecting and regularizing shapes from doodles. By leveraging geometric properties and computational techniques, the project effectively transforms irregular shapes into well-defined forms. The use of libraries like NumPy, Pandas, SciPy, scikit-image, and OpenCV ensures precise shape detection and regularization, making the approach both accurate and efficient.
+
 # Problem Statement - 2 : Exploring Symmetry in Curves
 
 ## Introduction
