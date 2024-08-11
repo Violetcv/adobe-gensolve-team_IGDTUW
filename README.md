@@ -25,25 +25,30 @@ Next, we worked with polylines and Bézier curves. We checked the symmetry of in
 We analyzed the following datasets for symmetry:
 
 1. **frag01**
+
    ![image](https://github.com/user-attachments/assets/dd9fcb7b-eeff-4d80-b346-4e79292e1f87)
    ![image](https://github.com/user-attachments/assets/9c199c1f-c8c8-418b-a4ed-6690a7668f9a)
 
 
 2. **frag2**
+
    ![image](https://github.com/user-attachments/assets/f26b73f2-6bf1-4b88-8526-6ffd1ff17333)
    ![image](https://github.com/user-attachments/assets/65fcbbf8-50b4-4e00-b4d3-ed0e04bc2895)
 
-3. **isolated**
+4. **isolated**
+
    ![image](https://github.com/user-attachments/assets/bed4bfa5-1491-4d1d-9de8-a5699d2b4157)
    ![image](https://github.com/user-attachments/assets/95473b85-05ce-41f9-83b8-7e4a644d6a7b)
 
 
-4. **occlusion1**
+6. **occlusion1**
+
    ![image](https://github.com/user-attachments/assets/707363b6-082e-4ab9-9156-d3b55dd94dd6)
    ![image](https://github.com/user-attachments/assets/5fc4c0ae-fdbb-475f-950d-8135e4c8304f)
 
 
-5. **occlusion2**
+8. **occlusion2**
+
     ![image](https://github.com/user-attachments/assets/22cfa379-759e-472c-aa68-04e9ed348fdd)
     ![image](https://github.com/user-attachments/assets/974a137a-510b-4295-a2bb-52ec8deaf82e)
 
